@@ -13,7 +13,6 @@ function App() {
     
      <Route path = '' element={<AutLogin/>} />
      <Route path = 'registration' element={<AutRegister/>} />
-    
     </Routes>
     </BrowserRouter>
   );
