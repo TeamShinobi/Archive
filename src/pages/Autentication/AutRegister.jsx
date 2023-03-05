@@ -12,7 +12,6 @@ const AutRegister = () => {
 
         <div className="w-full h-[100vh]">
 
-
             <div className="h-full w-full grid md:grid-cols-3">
                 <h1 className=" text-white hidden absolute md:flex font-bold font-mono text-[60px] lg:text-[40px] pl-4">ARC<span className="text-[#900ef1]">HIVE</span></h1>
                 <div className="w-full col-span-2 flex justify-center">
@@ -47,7 +46,6 @@ const AutRegister = () => {
 
                             let d = data
                             Setdata({ ...d, email: event.target.value })
-
                         }}
                         placeholder="Enter Email:" />
                     <input
@@ -57,7 +55,6 @@ const AutRegister = () => {
 
                             let d = data
                             Setdata({ ...d, password: event.target.value })
-
                         }}
                         placeholder="Enter Password:" />
 
