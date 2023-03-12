@@ -1,6 +1,5 @@
 # Getting Started with Create React App
 
-work in progress might change later if have time
 
 ## Available Scripts
 
